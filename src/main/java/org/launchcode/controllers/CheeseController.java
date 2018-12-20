@@ -16,7 +16,7 @@ import javax.validation.Valid;
  * Created by LaunchCode
  */
 @Controller
-@RequestMapping(value ={"cheese", "/"})
+@RequestMapping(value = "cheese")
 public class CheeseController {
 
     @Autowired
